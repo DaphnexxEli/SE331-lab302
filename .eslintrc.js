@@ -6,7 +6,10 @@ module.exports = {
     extends: [
         "plugin:vue/vue3-essential",
         "eslint:recommended",
-        "plugin:prettier/recommended",
+
+        // "prettier/prettier": ["error", {
+        //     "singleQuote": false
+        // }],
     ],
     parserOptions: {
         parser: "@babel/eslint-parser",
